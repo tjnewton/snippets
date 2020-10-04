@@ -1,5 +1,5 @@
 # snippets
-Useful chunks of code that would otherwise be lost to the ether.
+Useful chunks of code and information that would otherwise be lost to the ether.
 
 ### Start snipping (ﾉ◕ヮ◕)ﾉ  
 Clone this repo in your preferred directory:  
