@@ -16,25 +16,27 @@ dependencies:
   - brotlipy=0.7.0=py38h64e0658_1000
   - bzip2=1.0.8=haf1e3a3_3
   - c-ares=1.16.1=haf1e3a3_3
-  - ca-certificates=2020.6.20=hecda079_0
+  - ca-certificates=2020.12.5=h033912b_0
   - cairo=1.16.0=hec6a9b0_1003
-  - certifi=2020.6.20=py38h32f6830_0
+  - certifi=2020.12.5=py38h50d1736_1
   - cffi=1.14.3=py38hc4dd44e_0
   - cfitsio=3.470=hdf94aef_6
   - chardet=3.0.4=py38h32f6830_1006
   - cryptography=3.1=py38h52adbb4_0
   - curl=7.71.1=hcb81553_5
+  - cycler=0.10.0=py_2
   - dcw-gmt=1.1.4=1001
   - decorator=4.4.2=py_0
   - defusedxml=0.6.0=py_0
   - entrypoints=0.3=py38h32f6830_1001
   - expat=2.2.9=hb1e8313_2
-  - ffmpeg=4.3.1=h9903f1f_0
+  - ffmpeg=4.3.1=he496704_1
   - fftw=3.3.8=nompi_h44ae4c8_1111
   - fontconfig=2.13.1=h6b1039f_1001
   - freetype=2.10.2=h8da9a1a_0
   - freexl=1.0.5=h0b31af3_1002
   - fribidi=1.0.10=h0b31af3_0
+  - future=0.18.2=py38h50d1736_3
   - gdal=3.0.4=py38h9f7df5a_4
   - geos=3.8.1=h4a8c4bd_0
   - geotiff=1.5.1=hd8796ba_10
@@ -71,6 +73,7 @@ dependencies:
   - jupyterlab_pygments=0.1.1=pyh9f0ad1d_0
   - jupyterlab_server=1.2.0=py_0
   - kealib=1.4.13=h2324030_0
+  - kiwisolver=1.3.1=py38h9250c2b_0
   - krb5=1.17.1=h75d18d8_3
   - lame=3.100=h1de35cc_1001
   - libblas=3.8.0=17_openblas
@@ -81,26 +84,35 @@ dependencies:
   - libedit=3.1.20191231=h0678c8f_2
   - libev=4.33=haf1e3a3_1
   - libffi=3.2.1=hb1e8313_1007
+  - libflac=1.3.3=h4a8c4bd_0
   - libgd=2.2.5=hfc178f3_1007
   - libgdal=3.0.4=h1914a01_4
   - libgfortran=4.0.0=2
   - libiconv=1.16=haf1e3a3_0
   - libkml=1.3.0=h88bc94a_1012
   - liblapack=3.8.0=17_openblas
+  - libllvm10=10.0.1=h009f743_3
   - libnetcdf=4.7.4=nompi_he461dc0_101
   - libnghttp2=1.41.0=h7580e61_2
+  - libogg=1.3.4=h35c211d_1
   - libopenblas=0.3.10=openmp_h63d9170_4
   - libpng=1.6.37=hb0a8c7a_2
   - libpq=12.3=h489d428_0
+  - libsndfile=1.0.29=hb1e8313_0
   - libsodium=1.0.18=h01d97ff_0
   - libspatialite=4.3.0a=h658e6c1_1038
   - libssh2=1.9.0=h8a08a2b_5
   - libtiff=4.1.0=ha78913b_3
+  - libvorbis=1.3.7=h4a8c4bd_0
   - libwebp=1.0.2=hd3bf737_5
   - libxml2=2.9.10=h53d96d6_0
+  - libxslt=1.1.33=h320ff13_0
   - llvm-openmp=10.0.1=h28b9765_0
+  - llvmlite=0.36.0=py38he4411ff_4
+  - lxml=4.6.3=py38h6ea4786_0
   - lz4-c=1.9.2=hb1e8313_3
   - markupsafe=1.1.1=py38h64e0658_1
+  - matplotlib-base=3.2.2=py38h1300a51_1
   - mistune=0.8.4=py38h64e0658_1001
   - nbclient=0.5.0=py_0
   - nbconvert=6.0.2=py38h32f6830_0
@@ -109,10 +121,12 @@ dependencies:
   - nest-asyncio=1.4.0=py_0
   - nettle=3.4.1=h3efe00b_1002
   - notebook=6.1.4=py38h32f6830_0
+  - numba=0.53.1=py38hb2f4e1b_0
   - numpy=1.19.1=py38h8ccc501_2
+  - obspy=1.2.2=py38h8cc9b4f_1
   - openh264=2.1.1=hd174df1_0
   - openjpeg=2.3.1=h254dc36_3
-  - openssl=1.1.1g=haf1e3a3_1
+  - openssl=1.1.1k=h0d85af4_0
   - packaging=20.4=pyh9f0ad1d_0
   - pandoc=2.10.1=haf1e3a3_0
   - pandocfilters=1.4.2=py_1
@@ -136,6 +150,7 @@ dependencies:
   - pyparsing=2.4.7=pyh9f0ad1d_0
   - pyrsistent=0.17.3=py38h4d0b108_0
   - pysocks=1.7.1=py38h32f6830_1
+  - pysoundfile=0.10.3.post1=pyhd3deb0d_0
   - python=3.8.5=h0ed32c4_8_cpython
   - python-dateutil=2.8.1=py_0
   - python_abi=3.8=1_cp38
@@ -143,9 +158,12 @@ dependencies:
   - qt=5.9.7=h8cf7e54_3
   - readline=8.0=h0678c8f_2
   - requests=2.24.0=pyh9f0ad1d_0
+  - resampy=0.2.2=py_0
+  - scipy=1.4.1=py38h38b60c6_3
   - send2trash=1.5.0=py_0
   - setuptools=49.6.0=py38h32f6830_0
   - six=1.15.0=pyh9f0ad1d_0
+  - sqlalchemy=1.3.23=py38hca655e8_0
   - sqlite=3.33.0=h960bd1c_0
   - tbb=2019.9=ha1b3eb9_1
   - terminado=0.8.3=py38h32f6830_1
@@ -169,5 +187,4 @@ dependencies:
   - pip:
     - geographiclib==1.50
     - geopy==2.0.0
-prefix: /Users/human/opt/anaconda3/envs/snippets
-
+prefix: /opt/anaconda3/envs/snippets
