@@ -1,1 +1,7 @@
 character_filter.c - takes an input file and prints it to the terminal with line numbers. Optionally filters a specified character from the input. 
+
+primes.c - computes the sum of the first n (input) prime numbers
+
+palindrone.c - determines if the input is a palindrone using a stack 
+
+prio_queue.c - program for learning the features of priority queues
