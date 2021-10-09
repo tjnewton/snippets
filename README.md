@@ -1,6 +1,20 @@
 # snippets
 Useful chunks of code and information that would otherwise be lost to the ether.
 
+## Contents:  
+**C/**  
+* C programs  
+**bash/**  
+* bash scripts 
+**debug/**  
+* directory to share code for debugging
+**grids/**  
+* scripts to process gridded data
+**seismology/**  
+* transform earthquake data 
+**sonification/**  
+* transform data to sound
+
 ### Start snipping (ﾉ◕ヮ◕)ﾉ  
 Clone this repo in your preferred directory:  
 `git clone https://github.com/tjnewton/snippets.git`  
