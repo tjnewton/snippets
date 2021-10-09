@@ -2,22 +2,24 @@
 Useful chunks of code and information that would otherwise be lost to the ether.
 
 ## Contents:  
-**C/**  
+**./C/**  
+* C fundamentals overview
 * C programs  
 
-**bash/**  
+**./bash/**  
+* bash fundamentals overview
 * bash scripts  
 
-**debug/**  
+**./debug/**  
 * directory to share code for debugging  
 
-**grids/**  
+**./grids/**  
 * scripts to process gridded data  
 
-**seismology/**  
+**./seismology/**  
 * transform earthquake data  
 
-**sonification/**  
+**./sonification/**  
 * transform data to sound  
 
 ### Start snipping (ﾉ◕ヮ◕)ﾉ  
