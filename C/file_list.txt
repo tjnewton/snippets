@@ -1,0 +1,1 @@
+character_filter.c - takes an input file and prints it to the terminal with line numbers. Optionally filters a specified character from the input. 
