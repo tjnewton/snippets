@@ -2,6 +2,7 @@
 # be run in the QGIS Python Console because at the time of creation the
 # methods used below are not available via the QGIS API. This script is
 # adapted from p.132 of "QGIS Python Programming Cookbook" by Joel Lawhead.
+# https://books.google.com/books?id=qLkrDwAAQBAJ&pg=PA132&lpg=PA132&dq=Sampling+a+raster+dataset+using+a+regular+grid&source=bl&ots=gK1Tgf4GsY&sig=ACfU3U2cslMw4Qr-7P1GPzUznsdUWBssIA&hl=en&sa=X&ved=2ahUKEwiTtYS8s-7zAhUSCTQIHegUAzQQ6AF6BAgeEAM#v=onepage&q=Sampling%20a%20raster%20dataset%20using%20a%20regular%20grid&f=false
 
 # QGIS -> Plugins -> Python Console
 import numpy
