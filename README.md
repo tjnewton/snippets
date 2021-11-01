@@ -15,6 +15,7 @@ Useful chunks of code and information that would otherwise be lost to the ether.
 
 **./grids/**  
 * scripts to process gridded data  
+* scripts to generate gridded data  
 
 **./seismology/**  
 * transform earthquake data  
