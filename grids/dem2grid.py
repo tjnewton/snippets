@@ -9,13 +9,16 @@ from PyQt5.QtCore import *
 
 # spacing between grid nodes in map coordinates
 spacing = .001
-#
-rasterLyr = QgsRasterLayer("/qgis_data/rasters/satimage.tif", "Sat Image")
+# load and validate the raster layer
+rasterLyr = QgsRasterLayer("/Users/human/Dropbox/Programs/lidar/yakima_basin_2018_dtm_43.tif", "lidar")
 rasterLyr.isValid()
-# True
+# get coordinate reference system and extent from raster layer
 rpr = rasterLyr.dataProvider()
 epsg = rasterLyr.crs().postgisSrid()
 ext = rasterLyr.extent()
+print(ext.xMinimum())
+
+
 vectorLyr = QgsVectorLayer('Point?crs=epsg:%s' % epsg, 'Grid' , "memory")
 vpr = vectorLyr.dataProvider()
 qd = QVariant.Double
