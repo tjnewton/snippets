@@ -7,9 +7,9 @@
 import numpy
 from PyQt5.QtCore import *
 
-
-spacing = .1
-inset = .04
+# spacing between grid nodes in map coordinates
+spacing = .001
+#
 rasterLyr = QgsRasterLayer("/qgis_data/rasters/satimage.tif", "Sat Image")
 rasterLyr.isValid()
 # True
@@ -21,10 +21,10 @@ vpr = vectorLyr.dataProvider()
 qd = QVariant.Double
 vpr.addAttributes([QgsField("Red", qd), QgsField("Green", qd), QgsField("Blue", qd)])
 vectorLyr.updateFields()
-xmin = ext.xMinimum() + inset
+xmin = ext.xMinimum()
 xmax = ext.xMaximum()
-ymin = ext.yMinimum() + inset
-ymax = ext.yMaximum() - inset
+ymin = ext.yMinimum()
+ymax = ext.yMaximum()
 
 pts = [(x,y) for x in (i for i in numpy.arange(xmin, xmax, spacing)) for y in (j for j in numpy.arange(ymin, ymax, spacing))]
 feats = []
