@@ -21,7 +21,7 @@ Useful chunks of code and information that would otherwise be lost to the ether.
 * transform earthquake data  
 
 **./sonification/**  
-* transform data to sound  
+* [transform time series data to sound](https://github.com/tjnewton/snippets/blob/master/sonification/sonify_rattlesnake_ridge.ipynb)  
 
 ### Start snipping (ﾉ◕ヮ◕)ﾉ  
 Clone this repo in your preferred directory:  
