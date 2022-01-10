@@ -3,11 +3,11 @@ Useful chunks of code and information that would otherwise be lost to the ether.
 
 ## Contents:  
 **./C/**  
-* C fundamentals overview
+* [C fundamentals overview](https://github.com/tjnewton/snippets/blob/master/C/learning_C.ipynb)
 * C programs  
 
 **./bash/**  
-* bash fundamentals overview
+* [bash fundamentals overview](https://github.com/tjnewton/snippets/blob/master/bash/bash_fundamentals.ipynb)
 * bash scripts  
 
 **./debug/**  
