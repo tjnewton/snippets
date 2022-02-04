@@ -16,9 +16,9 @@ dependencies:
   - brotlipy=0.7.0=py38h64e0658_1000
   - bzip2=1.0.8=haf1e3a3_3
   - c-ares=1.16.1=haf1e3a3_3
-  - ca-certificates=2020.12.5=h033912b_0
+  - ca-certificates=2020.10.14=0
   - cairo=1.16.0=hec6a9b0_1003
-  - certifi=2020.12.5=py38h50d1736_1
+  - certifi=2020.6.20=py38_0
   - cffi=1.14.3=py38hc4dd44e_0
   - cfitsio=3.470=hdf94aef_6
   - chardet=3.0.4=py38h32f6830_1006
@@ -80,7 +80,7 @@ dependencies:
   - libcblas=3.8.0=17_openblas
   - libcurl=7.71.1=h9bf37e3_5
   - libcxx=10.0.1=h5f48129_0
-  - libdap4=3.20.6=h993cace_1
+  - libdap4=3.20.4=habf5908_0
   - libedit=3.1.20191231=h0678c8f_2
   - libev=4.33=haf1e3a3_1
   - libffi=3.2.1=hb1e8313_1007
@@ -126,7 +126,7 @@ dependencies:
   - obspy=1.2.2=py38h8cc9b4f_1
   - openh264=2.1.1=hd174df1_0
   - openjpeg=2.3.1=h254dc36_3
-  - openssl=1.1.1k=h0d85af4_0
+  - openssl=1.1.1h=haf1e3a3_0
   - packaging=20.4=pyh9f0ad1d_0
   - pandoc=2.10.1=haf1e3a3_0
   - pandocfilters=1.4.2=py_1
